@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58938124-05e6-423d-8119-7dac57f0ba6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/nio/BasicBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/nio/NIOServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tyy/bio/BIOServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyy/bio/BIOServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tyy/bio/BIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyy/bio/BIOServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyy/nio/MappedByteBufferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyy/nio/MappedByteBufferTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tyy/nio/MappedByteBufferTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyy/nio/MappedByteBufferTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +59,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.MappedByteBufferTest">
-    <configuration name="MappedByteBufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tyy.nio.MappedByteBufferTest" />
+  <component name="RunManager" selected="Application.BasicBuffer">
+    <configuration name="BasicBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyy.nio.BasicBuffer" />
       <module name="NettySsg" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOFileChannel02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tyy.nio.NIOFileChannel02" />
+    <configuration name="MappedByteBufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyy.nio.MappedByteBufferTest" />
       <module name="NettySsg" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicBuffer" />
         <item itemvalue="Application.MappedByteBufferTest" />
         <item itemvalue="Application.NIOFileChannle04" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.NIOFileChannel03" />
-        <item itemvalue="Application.NIOFileChannel02" />
       </list>
     </recent_temporary>
   </component>
@@ -145,12 +146,25 @@
       <option name="presentableId" value="Default" />
       <updated>1605928345155</updated>
       <workItem from="1605928351618" duration="3992000" />
-      <workItem from="1606102038030" duration="6218000" />
+      <workItem from="1606102038030" duration="8094000" />
+      <workItem from="1606200168985" duration="3570000" />
     </task>
+    <task id="LOCAL-00001" summary="2020-11-23">
+      <created>1606108376570</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606108376570</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020-11-23" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-11-23" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="234" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1606102067532">
@@ -161,49 +175,62 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="222" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1280.689@0.0.1280.689" timestamp="1606102065461" />
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1606108374575">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1606108374575" />
     <state x="442" y="100" key="FileChooserDialogImpl" timestamp="1606102464230">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="442" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1606102464230" />
-    <state width="618" height="166" key="GridCell.Tab.0.bottom" timestamp="1606108017332">
+    <state width="584" height="176" key="GridCell.Tab.0.bottom" timestamp="1606205363419">
+      <screen x="67" y="0" width="1213" height="720" />
+    </state>
+    <state width="618" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606182782531" />
+    <state width="584" height="176" key="GridCell.Tab.0.bottom/67.0.1213.720/-900.116.900.1570@67.0.1213.720" timestamp="1606205363419" />
+    <state width="584" height="176" key="GridCell.Tab.0.center" timestamp="1606205363419">
+      <screen x="67" y="0" width="1213" height="720" />
+    </state>
+    <state width="618" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1606182782530" />
+    <state width="584" height="176" key="GridCell.Tab.0.center/67.0.1213.720/-900.116.900.1570@67.0.1213.720" timestamp="1606205363419" />
+    <state width="584" height="176" key="GridCell.Tab.0.left" timestamp="1606205363419">
+      <screen x="67" y="0" width="1213" height="720" />
+    </state>
+    <state width="618" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1606182782530" />
+    <state width="584" height="176" key="GridCell.Tab.0.left/67.0.1213.720/-900.116.900.1570@67.0.1213.720" timestamp="1606205363419" />
+    <state width="584" height="176" key="GridCell.Tab.0.right" timestamp="1606205363419">
+      <screen x="67" y="0" width="1213" height="720" />
+    </state>
+    <state width="618" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1606182782530" />
+    <state width="584" height="176" key="GridCell.Tab.0.right/67.0.1213.720/-900.116.900.1570@67.0.1213.720" timestamp="1606205363419" />
+    <state width="618" height="208" key="GridCell.Tab.1.bottom" timestamp="1606182782523">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="618" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606108017332" />
-    <state width="618" height="166" key="GridCell.Tab.0.center" timestamp="1606108017332">
+    <state width="618" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606182782523" />
+    <state width="618" height="208" key="GridCell.Tab.1.center" timestamp="1606182782522">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="618" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1606108017332" />
-    <state width="618" height="166" key="GridCell.Tab.0.left" timestamp="1606108017332">
+    <state width="618" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1606182782522" />
+    <state width="618" height="208" key="GridCell.Tab.1.left" timestamp="1606182782522">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="618" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1606108017332" />
-    <state width="618" height="166" key="GridCell.Tab.0.right" timestamp="1606108017332">
+    <state width="618" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1606182782522" />
+    <state width="618" height="208" key="GridCell.Tab.1.right" timestamp="1606182782522">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="618" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1606108017332" />
-    <state width="618" height="208" key="GridCell.Tab.1.bottom" timestamp="1606106979665">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="618" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606106979665" />
-    <state width="618" height="208" key="GridCell.Tab.1.center" timestamp="1606106979665">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="618" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1606106979665" />
-    <state width="618" height="208" key="GridCell.Tab.1.left" timestamp="1606106979665">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="618" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1606106979665" />
-    <state width="618" height="208" key="GridCell.Tab.1.right" timestamp="1606106979665">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="618" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1606106979665" />
+    <state width="618" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1606182782522" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1606103417901">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1606103417901" />
-    <state x="324" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1606102038862">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1606108381727">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1606108381727" />
+    <state x="324" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1606202128280">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="324" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689/-900.116.900.1570@0.0.1280.689" timestamp="1606202128280" />
     <state x="324" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1606102038862" />
   </component>
 </project>
